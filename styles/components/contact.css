@@ -1,3 +1,19 @@
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* Two columns on larger screens */
+    gap: 20px;
+    /* Adjust spacing between items */
+}
+
+@media (max-width: 768px) {
+
+    /* Stack items on smaller screens */
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 .contact{
     display: flex;
     flex-direction: column;
@@ -16,7 +32,7 @@
 .contact__description{
     font-size: var(--size-sm);
     color: var(--clr-slate600);
-    max-width: 60ch;    
+    max-width: 10ch;    
 }
 
 .contact__btn{
@@ -35,6 +51,7 @@
 
     .contact__description{
         font-size: var(--size-base);
+        max-width: 100ch;
     }
 
     .contact__btn{
@@ -56,6 +73,7 @@
 
         .contact__description {
             font-size: var(--size-lg);
+
         }
 
         .contact__btn {
@@ -80,7 +98,7 @@
         .contact__btn {
             font-size: var(--size-xl);
         }
-}
+} 
 
 /* 2xl */
 /* @media (min-width: 1536px) {} */
