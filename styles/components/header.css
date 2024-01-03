@@ -73,10 +73,10 @@
 
 /* lg */
 @media (min-width: 1024px) {
-    /* .header__link {
-        font-size: var(--size-sm);
+     .header__link {
+        font-size: var(--size-base);
     }
-
+        /*
     .header__sun {
         width: var(--size-xl);
         height: var(--size-xl);
