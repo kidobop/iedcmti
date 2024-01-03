@@ -43,8 +43,8 @@ html {
 
 body{
     font-family: 'General Sans', sans-serif;
-    background: var(--clr-dark);
-    color: var(--clr-light);
+    background: var(--clr-light);
+    color: var(--clr-dark);
 }
 
 img,
