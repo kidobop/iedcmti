@@ -28,7 +28,7 @@
 
 .team-content {
     width: 100%;
-    max-width: 1024px;
+    max-width: 824px;
     margin: 0 auto;
     margin-top: 20px;
     padding-bottom: 0%;
@@ -42,7 +42,21 @@
 
 .team-content2 {
     width: 100%;
-    max-width: 500px;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-bottom: 0%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+    /* margin-top: 4rem; */
+}
+
+.team-content3 {
+    width: 100%;
+    max-width: 200px;
     margin: 0 auto;
     margin-top: 20px;
     padding-bottom: 0%;
@@ -55,7 +69,7 @@
 }
 
 
-.team-content img, .team-content2 img {
+.team-content img, .team-content2 img, .team-content3 img {
     width: 100%;
     height: auto;
     border-radius: 15px;
