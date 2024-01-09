@@ -7,6 +7,10 @@
     position: relative;
     
 }
+.header__logo{
+    max-width: 50px;
+
+}
 
 .header__menu {
     display: none;
@@ -34,6 +38,11 @@
         /* border: 1px solid red; */
         padding: 0;
         gap: 2em; 
+    }
+
+    .header__logo {
+        margin-right: 500px;
+
     }
     
     .header__link{
