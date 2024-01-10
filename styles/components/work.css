@@ -5,7 +5,7 @@
 .work__title {
     font-size: var(--size-2xl);
     color: var(--clr-dark);
-    margin-top: 0%;
+    margin-top: 10px;
 }
 
 .work__description {
