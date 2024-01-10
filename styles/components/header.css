@@ -89,6 +89,7 @@
      .header__link {
         font-size: var(--size-base);
     }
+
         /*
     .header__sun {
         width: var(--size-xl);
@@ -101,7 +102,13 @@
 }
 
 /* xl */
-/* @media (min-width: 1280px) {} */
+@media (min-width: 1280px) {
+    .header__logo {
+            margin-right: 990px;
+            max-width: 100px;
+    
+        }
+}
 
 /* 2xl */
 /* @media (min-width: 1536px) {} */
