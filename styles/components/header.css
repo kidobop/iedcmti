@@ -111,4 +111,10 @@
 }
 
 /* 2xl */
-/* @media (min-width: 1536px) {} */
+@media (min-width: 1536px) {
+    .header__logo {
+            margin-right: 990px;
+            max-width: 100px;
+    
+        }
+}
