@@ -101,14 +101,15 @@
     } */
 }
 
-/* xl */
-@media (min-width: 1280px) {
+/* xl */ 
+@media (min-width: 1480px) {
     .header__logo {
             margin-right: 990px;
             max-width: 100px;
     
         }
 }
+
 
 /* 2xl */
 @media (min-width: 1536px) {
