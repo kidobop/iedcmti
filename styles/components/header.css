@@ -102,9 +102,9 @@
 }
 
 /* xl */ 
-@media (min-width: 1530px) {
+@media (min-width: 1290px) {
     .header__logo {
-            margin-right: 990px;
+            margin-right: 790px;
             max-width: 100px;
     
         }
